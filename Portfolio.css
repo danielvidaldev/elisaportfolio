@@ -1,0 +1,137 @@
+.navbar {
+    position: absolute;
+}
+
+.navbar-nav {
+    padding-right: 20px;
+    font-size: 1.1rem;
+}
+
+#portadaInner img {
+    object-fit: cover; 
+}
+
+@media (max-width: 992px) {
+    #main {
+        background: url(img/Hanger.jpg);
+        background-size: cover;
+        background-position: 75% 25%;
+        height: 100vh;
+    }
+}
+
+#portadaInner {
+    height: 100vh;
+}
+
+#portada {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+}
+
+#portada h1 {
+    font-size: 4rem;
+    text-shadow: 1px 1px 12px #000;
+}
+
+#portada h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1em;
+    text-shadow: 1px 1px 12px #000;
+}
+
+@media (min-width: 992px) {
+#portada a {
+    margin-right: 1.5rem;
+    }
+}
+
+hr {
+    color: #222;
+    width: 15em;
+    margin-top: 0;
+}
+
+#comunicationHeader {
+    padding-top: 5%;
+}
+
+#comunication {
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+#comunication img {
+    width: 9.4em;
+    height: 9.4em;
+}
+
+.fashionCarousel {
+    height: 22em;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.fashionCarousel img {
+    width: auto;
+    height: 100%;
+    max-height:100%;
+    margin: auto; 
+    display: block;
+    object-fit: auto;
+    margin: 0 auto;
+    position: 50% 50%;
+}
+
+#containerOne {
+    padding-top: 20px;
+}
+
+#containerTwo {
+    padding-top: 40px;
+}
+
+#contact {
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+#contact h3 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+    background-color: rgb(250, 250, 247);
+    border-radius: 8px;
+    width: 28em;
+}
+
+footer a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+#footerContainer {
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+#about {
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: justify;
+}
+
+.jumbotron p {
+    text-align: center;
+}
