@@ -11,27 +11,18 @@ body {
     font-size: 1.1rem;
 }
 
-#portadaInner img {
-    object-fit: cover; 
-}
-
-@media (max-width: 1170px) {
-    #main {
-        background: url(img/Hanger.jpg);
-        background-size: cover;
-        background-position: 75% 25%;
-        height: 100vh;
-    }
-}
-
-@media (max-width: 1170px) {
-    #mainCarousel .carousel-tem {
-        display: none;
-    }
-}
-
 #portadaInner {
     height: 100vh;
+}
+
+.carouselPortada img {
+    width: 100%;
+    height: 100%;
+    max-height:100%;
+    max-width: 100%; 
+    object-fit: cover;
+    margin: 0 auto;
+    position: 50% 50%;
 }
 
 #portada {
@@ -135,13 +126,6 @@ hr {
 #fashion img {
     width: 9.4em;
     height: 9.4em;
-}
-
-@media (min-width: 768px) {
-    #communication, #fashion {
-        padding-right: 3em;
-        padding-left: 3em;
-    }
 }
 
 .logo {
