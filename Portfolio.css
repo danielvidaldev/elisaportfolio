@@ -1,3 +1,7 @@
+body {
+    background: rgb(240, 247, 247);               
+}
+
 .navbar {
     position: absolute;
 }
@@ -11,12 +15,18 @@
     object-fit: cover; 
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1170px) {
     #main {
         background: url(img/Hanger.jpg);
         background-size: cover;
         background-position: 75% 25%;
         height: 100vh;
+    }
+}
+
+@media (max-width: 1170px) {
+    #mainCarousel .carousel-tem {
+        display: none;
     }
 }
 
@@ -47,18 +57,72 @@
     }
 }
 
+@media (max-width: 992px) {
+    #portada h1 {
+        font-size: 2.5rem;
+    }
+}
+
 hr {
     color: #222;
     width: 15em;
     margin-top: 0;
 }
 
+.jumbotron .row {
+    margin: 0;
+    padding: 0;
+}
+
+#fotoycv {
+    padding-top: 1%;
+}
+
+#fotoycv img {
+    height: 14em;
+    width: 15em;
+    margin-bottom: 1em;
+    border-radius: 8px;
+}
+
+#about p {
+    padding-top: 3%;
+    padding-left: 7%;
+}
+
+@media (max-width: 768px) {
+    #about p {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    #fotoycv img {
+        height: 12em;
+        width: 12em;
+    }
+}
+
+@media (max-width: 992px) {
+    #fotoycv {
+        padding-top: 5%;
+    }
+}
+
+@media (max-width: 768px) {
+    #fotoycv a {
+        position: absolute;
+        margin-top: 5em;
+        margin-left: 3em;
+    }
+}
+
 #communicationHeader {
-    padding-top: 5%;
+    padding-top: 2%;
 }
 
 #communication, #fashion {
-    padding-top: 3%;
+    padding-top: 1%;
     padding-bottom: 5%;
     justify-content: space-between;
 }
@@ -73,8 +137,19 @@ hr {
     height: 9.4em;
 }
 
+@media (min-width: 768px) {
+    #communication, #fashion {
+        padding-right: 3em;
+        padding-left: 3em;
+    }
+}
+
 .logo {
     padding-top: 4%;
+}
+
+.logo img {
+    border-radius: 10px;
 }
 
 .fashionCarousel {
@@ -93,6 +168,46 @@ hr {
     object-fit: cover;
     margin: 0 auto;
     position: 50% 50%;
+}
+
+#containerOne .carousel-indicators {
+    bottom: 10.8rem;
+}
+
+#containerTwo .carousel-indicators {
+    bottom: 12.2rem;
+}
+
+@media (max-width: 768px) {
+    #containerOne .carousel-indicators {
+        bottom: 9.5em;
+    }
+}
+
+@media (max-width: 768px) {
+    #containerTwo .carousel-indicators {
+        bottom: 7rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #tristesses .carousel-indicators {
+        bottom: 11.7rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1207px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+.carousel h5 {
+    text-align: center;
+}
+
+.carousel p {
+    text-align: justify;
 }
 
 #containerOne {
@@ -119,7 +234,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     font-size: 1rem;
-    background-color: rgb(250, 250, 247);
+    background: transparent;
     border-radius: 8px;
     width: 28em;
 }
@@ -147,6 +262,10 @@ footer a {
     text-align: justify;
 }
 
+#communication p, #fashion p {
+    text-align: justify;
+}
+
 #communicationHeader p, #fashionHeader p {
     text-align: justify;
 }
@@ -155,3 +274,4 @@ footer a {
     color: red;
     padding-bottom: 5px;
 }
+
