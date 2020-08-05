@@ -75,8 +75,8 @@ hr {
 }
 
 #fotoycv img {
-    height: 14em;
-    width: 15em;
+    height: 13em;
+    width: 11em;
     margin-bottom: 1em;
     border-radius: 8px;
 }
@@ -118,8 +118,8 @@ hr {
 }
 
 .g-card {
-    width: 22em;
-    height: 24em;
+    width: 18em;
+    height: 19em;
     margin: 0.6em auto;
     perspective: 62500em;
     margin-top: 2em;
@@ -156,7 +156,7 @@ hr {
 }
 
 .card-front h4 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     padding-top: 1em;
 }
 
@@ -167,7 +167,7 @@ hr {
 }
 
 .card-back p {
-    padding-top: 1em;
+    padding-top: 0.9em;
 }
 
 
@@ -177,13 +177,13 @@ hr {
 }
 
 #communication img {
-    width: 9.4em;
-    height: 9.4em;
+    width: 9em;
+    height: 9em;
 }
 
 #fashion img {
-    width: 9.4em;
-    height: 9.4em;
+    width: 9em;
+    height: 9em;
 } 
 
 .logo img {
