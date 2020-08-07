@@ -63,6 +63,7 @@ hr {
 
 .jumbotron {
     background-color: rgb(228, 235, 234);
+    padding-bottom: 0.8em;
 }
 
 .jumbotron .row {
@@ -114,7 +115,7 @@ hr {
 }
 
 #communicationHeader {
-    padding-top: 2%;
+    padding-top: 1%;
 }
 
 .g-card {
@@ -168,7 +169,18 @@ hr {
 }
 
 .card-back p {
-    padding-top: 0.5em;
+    padding-top: 1em;
+    font-size: 1.2em;
+}
+
+.cardLongText p {
+    padding-top: 0.4em;
+    font-size: 0.999em;
+}
+
+.cardAmadeusCalabuch p {
+    padding-top: 0.4em;
+    font-size: 1.1em;
 }
 
 
